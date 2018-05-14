@@ -1,0 +1,7 @@
+To input the string.
+string name;
+cin >> name;
+
+other way
+string name
+getline(cin, name);
