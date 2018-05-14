@@ -5,3 +5,11 @@ cin >> name;
 other way
 string name
 getline(cin, name);
+
+//According to Coding Nimjas notes:
+cin doesn't count the SPACES, TABS AND NEW LINE. 
+
+cin.getline(string name, length of the string, 'teriminating symbol like $');
+cin.getline(a, 100);
+or in more detail
+cin.getiline(1, 100, 'o'); where is the delimeter.
