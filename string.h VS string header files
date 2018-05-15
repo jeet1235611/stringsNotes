@@ -1,0 +1,6 @@
+up vote
+57
+down vote
+accepted
+<string.h> contains old functions like strcpy, strlen for C style null-terminated strings.
+<string> primarily contains the std::string, std::wstring and other classes
