@@ -13,3 +13,9 @@ cin.getline(string name, length of the string, 'teriminating symbol like $');
 cin.getline(a, 100);
 or in more detail
 cin.getiline(1, 100, 'o'); where is the delimeter.
+
+
+//Working for the string length function
+string length function works for the character arrays.
+
+otherwise error will be can't convert string len to char * something like this.
