@@ -1,0 +1,5 @@
+const char* ptr is used as a cout << operator, and is interpreted as the string.
+
+Link or resoruces
+
+https://stackoverflow.com/questions/16912645/c-setting-char-pointer-to-null
