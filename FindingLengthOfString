@@ -1,0 +1,9 @@
+string s;
+int len = s.length();
+
+char s[100];
+int len = strlen(s); //#include <string.h>
+
+https://stackoverflow.com/questions/20180874/how-to-get-length-of-a-string-using-strlen-function
+
+resource
