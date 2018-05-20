@@ -1,0 +1,8 @@
+Does string variable contain null pointer?
+Ans: No, but you can add null pointer like any other variable
+sting s;
+s[i] = '\0';
+
+stackOverflow link
+
+https://stackoverflow.com/questions/11752705/does-stdstring-contain-null-terminator
