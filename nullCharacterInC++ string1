@@ -1,0 +1,30 @@
+Does string variable contain null pointer?
+Ans: No, but you can add null pointer like any other variable
+sting s;
+s[i] = '\0';
+
+stackOverflow link
+
+https://stackoverflow.com/questions/11752705/does-stdstring-contain-null-terminator
+
+
+
+
+56
+down vote
+accepted
+No, but if you say temp.c_str() a null terminator will be included in the return from this method.
+
+It's also worth saying that you can include a null character in a string just like any other character.
+
+string s("hello");
+cout << s.size() << ' ';
+s[1] = '\0';
+cout << s.size() << '\n';
+prints
+
+5 5
+
+and not 5 1 as you might expect if null characters had a special meaning for strings.
+
+
